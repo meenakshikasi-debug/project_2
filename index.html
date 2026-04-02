@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+
+<style>
+
+table{
+width:400px;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+select,
+textarea{
+width:100%;
+padding:6px;
+margin-top:5px;
+box-sizing:border-box;
+}
+
+textarea{
+height:100px;
+}
+
+button{
+width:100%;
+padding:8px;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body align="center" bgcolor="lightblue">
+<form>
+        
+    <table align="center" bgcolor="white" cellpadding="10" >
+    <tr><td colspan="2"><h1>Student Registration Form</h1></td>
+</tr>
+<tr>
+<td colspan="2">
+<label>Student Name:</label><br>
+<input type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Mobile Number:</label><br>
+<input type="tel">
+</td>
+
+<td>
+<label>Email ID:</label><br>
+<input type="email">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Father Name:</label><br>
+<input type="text">
+</td>
+
+<td>
+<label>Mother Name:</label><br>
+<input type="text">
+</td>
+</tr>
+
+<tr>
+<td>
+<label>Select Course:</label><br>
+<select>
+<option>Select</option>
+<option>HTML</option>
+<option>CSS</option>
+<option>JAVA</option>
+<option>PYTHON</option>
+</select>
+</td>
+
+<td>
+<label>Date of Birth:</label><br>
+<input type="date">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<label>Gender:</label>
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<label>Select Branch:</label><br>
+<input type="checkbox"> CSE
+<input type="checkbox"> IT
+<input type="checkbox"> ECE
+<input type="checkbox"> CIVIL
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<label>Address:</label><br>
+<textarea></textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<button type="submit">Submit</button>
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
